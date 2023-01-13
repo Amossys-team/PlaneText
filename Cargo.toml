@@ -1,0 +1,19 @@
+[package]
+name = "ecw"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cbc = "0.1.2"
+aes = "0.8.1"
+sha2 = "0.10.2"
+tokio = { version = "1.20.1", features = ["full"] }
+http = "0.2.8"
+httparse = "1.7.1"
+bytes = "1"
+thiserror = "1.0.31"
+http-bytes = "0.1.0"
+rand = "0"
+lazy_static = "1"
